@@ -1,0 +1,1028 @@
+[
+  {
+    "tag": "vaadin-drawer-toggle",
+    "parent": "vaadin-horizontal-layout",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-drawer-toggle",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-select",
+    "parent": "vaadin-select-text-field",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "div",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-tabs",
+    "parent": "vaadin-vertical-layout",
+    "id": "tabs",
+    "role": "tablist",
+    "text": "DashboardClaims ListClaims DetailsBatch "
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Dashboard"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Dashboard"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Claims List"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Claims List"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Claims Details"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Claims Details"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Batch Management"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Batch Management"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Payment"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Payment"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Clients"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Clients"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Members"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Members"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Medical Records"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Medical Records"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Insurers"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Insurers"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Policies"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Policies"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Providers"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Providers"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Acts"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Acts"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Products"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Products"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Users"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Users"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Profile Management"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Profile Management"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Configuration"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Configuration"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Parameters"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Parameters"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Upload Files"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "Upload Files"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "My Profile"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "My Profile"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "About Us"
+  },
+  {
+    "tag": "a",
+    "parent": "vaadin-tab",
+    "text": "About Us"
+  },
+  {
+    "tag": "vaadin-tabs",
+    "parent": "div",
+    "role": "tablist",
+    "text": "MemberBeneficiaryActive Policies"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Member"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Beneficiary"
+  },
+  {
+    "tag": "vaadin-tab",
+    "parent": "vaadin-tabs",
+    "role": "tab",
+    "text": "Active Policies"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "vaadin-date-picker-text-field",
+    "host": "vaadin-date-picker",
+    "id": "input",
+    "role": "application",
+    "ariaLabel": "Date of Birth"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-date-picker",
+    "parent": "vaadin-date-picker-text-field",
+    "role": "button",
+    "ariaLabel": "Calendar"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-date-picker-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "vaadin-date-picker-text-field",
+    "host": "vaadin-date-picker",
+    "id": "input",
+    "role": "application",
+    "ariaLabel": "Start Date"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-date-picker",
+    "parent": "vaadin-date-picker-text-field",
+    "role": "button",
+    "ariaLabel": "Calendar"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-date-picker-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "vaadin-checkbox",
+    "parent": "div",
+    "role": "checkbox",
+    "text": "VIP"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-checkbox",
+    "parent": "span",
+    "type": "checkbox",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-checkbox",
+    "parent": "div",
+    "role": "checkbox",
+    "text": "Retirement Age"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-checkbox",
+    "parent": "span",
+    "type": "checkbox",
+    "role": "presentation"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-form-layout",
+    "role": "button",
+    "text": "Additional Info"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-form-layout",
+    "role": "button",
+    "text": "Save"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-form-layout",
+    "role": "button",
+    "text": "Reset"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-horizontal-layout",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-horizontal-layout",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "vaadin-date-picker-text-field",
+    "host": "vaadin-date-picker",
+    "id": "input",
+    "role": "application"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-date-picker",
+    "parent": "vaadin-date-picker-text-field",
+    "role": "button",
+    "ariaLabel": "Calendar"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-date-picker-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot"
+  },
+  {
+    "tag": "div",
+    "host": "vaadin-combo-box",
+    "parent": "vaadin-text-field",
+    "id": "toggleButton",
+    "role": "button",
+    "ariaLabel": "Toggle"
+  },
+  {
+    "tag": "input",
+    "host": "vaadin-text-field",
+    "parent": "slot",
+    "role": "combobox"
+  },
+  {
+    "tag": "table",
+    "host": "vaadin-grid",
+    "parent": "div",
+    "id": "table",
+    "role": "grid"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-60",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-61",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-62",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-63",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-64",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-65",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-66",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-67",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-68",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-69",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-70",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-71",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-72",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-73",
+    "role": "gridcell"
+  },
+  {
+    "tag": "td",
+    "host": "vaadin-grid",
+    "parent": "caption",
+    "id": "vaadin-grid-cell-74",
+    "role": "gridcell"
+  },
+  {
+    "tag": "thead",
+    "host": "vaadin-grid",
+    "parent": "table",
+    "id": "header",
+    "role": "rowgroup"
+  },
+  {
+    "tag": "tr",
+    "host": "vaadin-grid",
+    "parent": "thead",
+    "role": "row"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-0",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-1",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-2",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-3",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-4",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-5",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-6",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-7",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-8",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-9",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-10",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-11",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-12",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-13",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-14",
+    "role": "columnheader"
+  },
+  {
+    "tag": "tr",
+    "host": "vaadin-grid",
+    "parent": "thead",
+    "role": "row"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-15",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-16",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-17",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-18",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-19",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-20",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-21",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-22",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-23",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-24",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-25",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-26",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-27",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-28",
+    "role": "columnheader"
+  },
+  {
+    "tag": "th",
+    "host": "vaadin-grid",
+    "parent": "tr",
+    "id": "vaadin-grid-cell-29",
+    "role": "columnheader"
+  },
+  {
+    "tag": "tbody",
+    "host": "vaadin-grid",
+    "parent": "table",
+    "id": "items",
+    "role": "rowgroup"
+  },
+  {
+    "tag": "tfoot",
+    "host": "vaadin-grid",
+    "parent": "table",
+    "id": "footer",
+    "role": "rowgroup"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "div",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "div",
+    "role": "button"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  }
+]

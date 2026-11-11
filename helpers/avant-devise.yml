@@ -1,0 +1,429 @@
+- img
+- button "":
+  - text: 
+  - button
+- heading "Members" [level=1]
+- img "flag for en"
+- text: English
+- button "Toggle": 
+- button:
+  - img
+  - button
+- text: "4"
+- img "Profile"
+- img "DIGI Health logo"
+- heading "Claim's Management" [level=4]
+- tablist:
+  - tab "Dashboard":
+    - img
+    - link "Dashboard":
+      - /url: dashboard
+  - tab "Claims List":
+    - img
+    - link "Claims List":
+      - /url: claimsBo
+  - tab "Claims Details":
+    - img
+    - link "Claims Details":
+      - /url: imported_claims_list
+  - tab "Batch Management":
+    - img
+    - link "Batch Management":
+      - /url: batch
+  - tab "Payment":
+    - img
+    - link "Payment":
+      - /url: payment
+  - tab "Clients":
+    - img
+    - link "Clients":
+      - /url: globalClient
+  - tab "Members" [selected]:
+    - img
+    - link "Members":
+      - /url: globalMembers
+  - tab "Medical Records":
+    - img
+    - link "Medical Records":
+      - /url: medical-record
+  - tab "Insurers":
+    - img
+    - link "Insurers":
+      - /url: globalInsurer
+  - tab "Policies":
+    - img
+    - link "Policies":
+      - /url: policy
+  - tab "Providers":
+    - img
+    - link "Providers":
+      - /url: provider
+  - tab "Acts":
+    - img
+    - link "Acts":
+      - /url: globalActs
+  - tab "Products":
+    - img
+    - link "Products":
+      - /url: produits
+  - tab "Users":
+    - img
+    - link "Users":
+      - /url: users
+  - tab "Profile Management":
+    - img
+    - link "Profile Management":
+      - /url: profileManagement
+  - tab "Configuration":
+    - img
+    - link "Configuration":
+      - /url: configuration
+  - tab "Parameters":
+    - img
+    - link "Parameters":
+      - /url: Parameters
+  - tab "Upload Files":
+    - img
+    - link "Upload Files":
+      - /url: fileuploadnewlogic
+  - tab "My Profile":
+    - img
+    - link "My Profile":
+      - /url: myProfile
+  - tab "About Us":
+    - img
+    - link "About Us":
+      - /url: about
+- tablist:
+  - text: 
+  - tab "Member" [selected]
+  - tab "Beneficiary"
+  - tab "Active Policies"
+  - text: 
+- text: Client •
+- combobox "Client • ASR company Toggle": ASR company
+- button "Toggle": 
+- text: First Name •
+- textbox "First Name • Test": Test
+- text: Last Name •
+- textbox "Last Name • E2E018378": E2E018378
+- text: Arabic First Name •
+- textbox "Arabic First Name • اختبار": اختبار
+- text: Arabic Last Name •
+- textbox "Arabic Last Name • اختبار": اختبار
+- text: Civility •
+- combobox "Civility • Mr Toggle": Mr
+- button "Toggle": 
+- application "Date of Birth":
+  - text: Date of Birth •
+  - textbox "Date of Birth • 01/15/1990 Calendar": 01/15/1990
+  - button "Calendar": 
+- text: Sex •
+- combobox "Sex • Male Toggle": Male
+- button "Toggle": 
+- text: Status •
+- combobox "Status • Single Toggle": Single
+- button "Toggle": 
+- text: Insured Code •
+- textbox "Insured Code • 0001018378": "0001018378"
+- text: Card Number •
+- textbox "Card Number • 0001018378": "0001018378"
+- text: Policy •
+- combobox "Policy • md-test-00000001 Toggle": md-test-00000001
+- button "Toggle": 
+- application "Start Date":
+  - text: Start Date •
+  - textbox "Start Date • 11/10/2026 Calendar": 11/10/2026
+  - button "Calendar": 
+- text: Family Limit Amount •
+- textbox "Family Limit Amount • 5000": "5000"
+- text: Individual Limit Amount •
+- textbox "Individual Limit Amount • 500": "500"
+- checkbox "VIP":
+  - checkbox "VIP"
+  - text: VIP
+- checkbox "Retirement Age" [checked]:
+  - checkbox "Retirement Age" [checked]
+  - text: Retirement Age
+- text: Payment Currency •
+- combobox "Payment Currency • Toggle"
+- button "Toggle": 
+- text: BANK •
+- combobox "BANK • Toggle"
+- button "Toggle": 
+- button "Additional Info":
+  - text: Additional Info
+  - img
+  - button
+- heading [level=3]
+- heading [level=3]
+- button "Save" [disabled]:
+  - img
+  - text: Save
+- button "Reset":
+  - img
+  - text: Reset
+  - button
+- grid:
+  - rowgroup:
+    - row "ID Civility  First Name  Last Name  Maiden Name  Arabic First Name  Arabic Last Name  Date of Birth  Insured Code  Sex  Department  Job Title  VIP ":
+      - columnheader
+      - columnheader "ID"
+      - columnheader "Civility "
+      - columnheader "First Name "
+      - columnheader "Last Name "
+      - columnheader "Maiden Name "
+      - columnheader "Arabic First Name "
+      - columnheader "Arabic Last Name "
+      - columnheader "Date of Birth "
+      - columnheader "Insured Code "
+      - columnheader "Sex "
+      - columnheader "Department "
+      - columnheader "Job Title "
+      - columnheader "VIP "
+      - columnheader:
+        - button "Select Column(s)":
+          - img
+          - button
+        - button "See More details":
+          - img
+          - button
+    - row "Toggle Toggle Toggle":
+      - columnheader
+      - columnheader
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - application:
+          - textbox "Calendar":
+            - /placeholder: Filter
+          - button "Calendar": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader
+  - rowgroup:
+    - row "78699 Mr ASR mohamed ASR akkari ASR محمد العكاري 1997-01-01 7070 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "78699"
+      - gridcell "Mr"
+      - gridcell "ASR mohamed"
+      - gridcell "ASR akkari"
+      - gridcell "ASR"
+      - gridcell "محمد"
+      - gridcell "العكاري"
+      - gridcell "1997-01-01"
+      - gridcell "7070"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+    - row "78955 Mr youssef madani يوسف مداني 1995-03-02 7071 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "78955"
+      - gridcell "Mr"
+      - gridcell "youssef"
+      - gridcell "madani"
+      - gridcell
+      - gridcell "يوسف"
+      - gridcell "مداني"
+      - gridcell "1995-03-02"
+      - gridcell "7071"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+    - row "79105 Mr Romulu Lukaku روميلوا لوكاكوا 2000-01-01 7075 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "79105"
+      - gridcell "Mr"
+      - gridcell "Romulu"
+      - gridcell "Lukaku"
+      - gridcell
+      - gridcell "روميلوا"
+      - gridcell "لوكاكوا"
+      - gridcell "2000-01-01"
+      - gridcell "7075"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+    - row "79284 Mr mohsen zakaria محسن زكاريا 1979-12-26 7076 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "79284"
+      - gridcell "Mr"
+      - gridcell "mohsen"
+      - gridcell "zakaria"
+      - gridcell
+      - gridcell "محسن"
+      - gridcell "زكاريا"
+      - gridcell "1979-12-26"
+      - gridcell "7076"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+    - row "80351 asr-mem1 asr-mem-2 2002-08-30 1010 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "80351"
+      - gridcell
+      - gridcell "asr-mem1"
+      - gridcell "asr-mem-2"
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell "2002-08-30"
+      - gridcell "1010"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+    - row "80361 asr-v2 1992-06-01 1011 M" [level=1]:
+      - gridcell:
+        - img
+      - gridcell "80361"
+      - gridcell
+      - gridcell "asr-v2"
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell
+      - gridcell "1992-06-01"
+      - gridcell "1011"
+      - gridcell "M"
+      - gridcell
+      - gridcell
+      - gridcell:
+        - img
+      - gridcell:
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - button:
+          - img
+          - button
+        - menubar:
+          - menuitem:
+            - img
+            - button
+  - rowgroup
+- text: Total Members :6
+- heading [level=3]
+- button "Export Members":
+  - img
+  - button
+- button "Export All Members":
+  - img
+  - button
+- text: Monday 15 January 1990

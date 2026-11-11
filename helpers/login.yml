@@ -1,0 +1,21 @@
+- img
+- img "DIGI Health logo"
+- heading "Welcome to DigiHealth" [level=1]
+- paragraph: Manage your healthcare claims with confidence. Submit claims, track their progress in real time, access your reimbursement history, and stay informed through a secure and intuitive platform.
+- img "Developed by Digi Health"
+- heading "Login" [level=2]
+- text: Email •
+- textbox
+- text: Password •
+- textbox
+- text: 
+- button "Sign In":
+  - text: Sign In
+  - button
+- button "Forgot Password":
+  - text: Forgot Password
+  - button
+- paragraph: Please email contact@my-website.com in case of login error!
+- button "Don't have an account? Register":
+  - text: Don't have an account? Register
+  - button

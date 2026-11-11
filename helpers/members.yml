@@ -1,0 +1,242 @@
+- img
+- button "":
+  - text: 
+  - button
+- heading "Members" [level=1]
+- img "flag for en"
+- text: English
+- button "Toggle": 
+- button:
+  - img
+  - button
+- text: "4"
+- img "Profile"
+- img "DIGI Health logo"
+- heading "Claim's Management" [level=4]
+- tablist:
+  - tab "Dashboard":
+    - img
+    - link "Dashboard":
+      - /url: dashboard
+  - tab "Claims List":
+    - img
+    - link "Claims List":
+      - /url: claimsBo
+  - tab "Claims Details":
+    - img
+    - link "Claims Details":
+      - /url: imported_claims_list
+  - tab "Batch Management":
+    - img
+    - link "Batch Management":
+      - /url: batch
+  - tab "Payment":
+    - img
+    - link "Payment":
+      - /url: payment
+  - tab "Clients":
+    - img
+    - link "Clients":
+      - /url: globalClient
+  - tab "Members" [selected]:
+    - img
+    - link "Members":
+      - /url: globalMembers
+  - tab "Medical Records":
+    - img
+    - link "Medical Records":
+      - /url: medical-record
+  - tab "Insurers":
+    - img
+    - link "Insurers":
+      - /url: globalInsurer
+  - tab "Policies":
+    - img
+    - link "Policies":
+      - /url: policy
+  - tab "Providers":
+    - img
+    - link "Providers":
+      - /url: provider
+  - tab "Acts":
+    - img
+    - link "Acts":
+      - /url: globalActs
+  - tab "Products":
+    - img
+    - link "Products":
+      - /url: produits
+  - tab "Users":
+    - img
+    - link "Users":
+      - /url: users
+  - tab "Profile Management":
+    - img
+    - link "Profile Management":
+      - /url: profileManagement
+  - tab "Configuration":
+    - img
+    - link "Configuration":
+      - /url: configuration
+  - tab "Parameters":
+    - img
+    - link "Parameters":
+      - /url: Parameters
+  - tab "Upload Files":
+    - img
+    - link "Upload Files":
+      - /url: fileuploadnewlogic
+  - tab "My Profile":
+    - img
+    - link "My Profile":
+      - /url: myProfile
+  - tab "About Us":
+    - img
+    - link "About Us":
+      - /url: about
+- tablist:
+  - text: 
+  - tab "Member" [selected]
+  - tab "Beneficiary"
+  - tab "Active Policies"
+  - text: 
+- text: Client •
+- combobox "Client • Toggle"
+- button "Toggle": 
+- text: First Name •
+- textbox "First Name •"
+- text: Last Name •
+- textbox "Last Name •"
+- text: Arabic First Name •
+- textbox "Arabic First Name •"
+- text: Arabic Last Name •
+- textbox "Arabic Last Name •"
+- text: Civility •
+- combobox "Civility • Toggle"
+- button "Toggle": 
+- application "Date of Birth":
+  - text: Date of Birth •
+  - textbox "Date of Birth • Calendar"
+  - button "Calendar": 
+- text: Sex •
+- combobox "Sex • Toggle"
+- button "Toggle": 
+- text: Status •
+- combobox "Status • Toggle"
+- button "Toggle": 
+- text: Insured Code •
+- textbox "Insured Code •"
+- text: Card Number •
+- textbox "Card Number •"
+- text: Policy •
+- combobox "Policy • Toggle"
+- button "Toggle": 
+- application "Start Date":
+  - text: Start Date •
+  - textbox "Start Date • 11/10/2026 Calendar": 11/10/2026
+  - button "Calendar": 
+- text: Family Limit Amount •
+- textbox "Family Limit Amount •"
+- text: Individual Limit Amount •
+- textbox "Individual Limit Amount •"
+- checkbox "VIP":
+  - checkbox "VIP"
+  - text: VIP
+- checkbox "Retirement Age" [checked]:
+  - checkbox "Retirement Age" [checked]
+  - text: Retirement Age
+- text: Payment Currency •
+- combobox "Payment Currency • Toggle"
+- button "Toggle": 
+- text: BANK •
+- combobox "BANK • Toggle"
+- button "Toggle": 
+- button "Additional Info":
+  - text: Additional Info
+  - img
+  - button
+- heading [level=3]
+- heading [level=3]
+- button "Save":
+  - img
+  - text: Save
+  - button
+- button "Reset":
+  - img
+  - text: Reset
+  - button
+- grid:
+  - rowgroup:
+    - row "ID Civility  First Name  Last Name  Maiden Name  Arabic First Name  Arabic Last Name  Date of Birth  Insured Code  Sex  Department  Job Title  VIP ":
+      - columnheader
+      - columnheader "ID"
+      - columnheader "Civility "
+      - columnheader "First Name "
+      - columnheader "Last Name "
+      - columnheader "Maiden Name "
+      - columnheader "Arabic First Name "
+      - columnheader "Arabic Last Name "
+      - columnheader "Date of Birth "
+      - columnheader "Insured Code "
+      - columnheader "Sex "
+      - columnheader "Department "
+      - columnheader "Job Title "
+      - columnheader "VIP "
+      - columnheader:
+        - button "Select Column(s)":
+          - img
+          - button
+        - button "See More details":
+          - img
+          - button
+    - row "Toggle Toggle Toggle":
+      - columnheader
+      - columnheader
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - application:
+          - textbox "Calendar":
+            - /placeholder: Filter
+          - button "Calendar": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader:
+        - textbox:
+          - /placeholder: Filter
+      - columnheader "Toggle":
+        - combobox "Toggle"
+        - button "Toggle": 
+      - columnheader
+  - rowgroup
+  - rowgroup
+- heading [level=3]
+- button "Export Members":
+  - img
+  - button
+- button "Export All Members":
+  - img
+  - button

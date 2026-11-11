@@ -1,0 +1,181 @@
+- img
+- button "":
+  - text: 
+  - button
+- heading "Dashboard" [level=1]
+- img "flag for en"
+- text: English
+- button "Toggle": 
+- button:
+  - img
+  - button
+- text: "4"
+- img "Profile"
+- img "DIGI Health logo"
+- heading "Claim's Management" [level=4]
+- tablist:
+  - tab "Dashboard" [selected]:
+    - img
+    - link "Dashboard":
+      - /url: dashboard
+  - tab "Claims List":
+    - img
+    - link "Claims List":
+      - /url: claimsBo
+  - tab "Claims Details":
+    - img
+    - link "Claims Details":
+      - /url: imported_claims_list
+  - tab "Batch Management":
+    - img
+    - link "Batch Management":
+      - /url: batch
+  - tab "Payment":
+    - img
+    - link "Payment":
+      - /url: payment
+  - tab "Clients":
+    - img
+    - link "Clients":
+      - /url: globalClient
+  - tab "Members":
+    - img
+    - link "Members":
+      - /url: globalMembers
+  - tab "Medical Records":
+    - img
+    - link "Medical Records":
+      - /url: medical-record
+  - tab "Insurers":
+    - img
+    - link "Insurers":
+      - /url: globalInsurer
+  - tab "Policies":
+    - img
+    - link "Policies":
+      - /url: policy
+  - tab "Providers":
+    - img
+    - link "Providers":
+      - /url: provider
+  - tab "Acts":
+    - img
+    - link "Acts":
+      - /url: globalActs
+  - tab "Products":
+    - img
+    - link "Products":
+      - /url: produits
+  - tab "Users":
+    - img
+    - link "Users":
+      - /url: users
+  - tab "Profile Management":
+    - img
+    - link "Profile Management":
+      - /url: profileManagement
+  - tab "Configuration":
+    - img
+    - link "Configuration":
+      - /url: configuration
+  - tab "Parameters":
+    - img
+    - link "Parameters":
+      - /url: Parameters
+  - tab "Upload Files":
+    - img
+    - link "Upload Files":
+      - /url: fileuploadnewlogic
+  - tab "My Profile":
+    - img
+    - link "My Profile":
+      - /url: myProfile
+  - tab "About Us":
+    - img
+    - link "About Us":
+      - /url: about
+- text: Total Claims Submitted 111 Processing Rate 11.71% Validated Claims 13 Pending Claims 98 Paid Claims 13 Unpaid Claims 98 Client Stats
+- img
+- img: APPROVED CLOSED EMPTY OPEN PAID PENDING PROCESS PENDING VALIDATION PROCESSED PROCESSING RETURNED SUBMITTED SUBMITTED EMPTY VALIDATED 135 Claims Status
+- button "Choose Date Range":
+  - text: Choose Date Range
+  - button
+- img: 2026-01 2026-02 2026-03 2026-04 2026-05 2026-06 2026-07 2026-08 2026-09 2026-10 2026-11 2026-12 0 0 0 0 0 0 7 22 43 9 11 0 Claims Trend 50 40 30 20 10 0
+- img
+- img
+- img
+- img
+- img
+- img
+- text: Download SVG Download PNG Download CSV
+- img: Consumption Remaining Coverage Amount ITIC-26-001 (ITIC-2... No Config policy (No... Test Internationale (... 6655888888 (66558... ITIC-SC-26-001 (ITI... 100 90 80 70 60 50 40 30 20 10 0 Top Policies' Consumptions
+- img
+- text: Download SVG Download PNG Download CSV
+- button:
+  - img
+  - button
+- img: Direct Billing Reimbursement Claims Type 120 90 60 30 0
+- img
+- text: Download SVG Download PNG Download CSV
+- grid:
+  - rowgroup:
+    - row "Relationship Male Female Total":
+      - columnheader "Relationship"
+      - columnheader "Male"
+      - columnheader "Female"
+      - columnheader "Total"
+  - rowgroup:
+    - row "Child 8 2 10" [level=1]:
+      - gridcell "Child"
+      - gridcell "8"
+      - gridcell "2"
+      - gridcell "10"
+    - row "Member 24 2 26" [level=1]:
+      - gridcell "Member"
+      - gridcell "24"
+      - gridcell "2"
+      - gridcell "26"
+    - row "Parent 1 0 1" [level=1]:
+      - gridcell "Parent"
+      - gridcell "1"
+      - gridcell "0"
+      - gridcell "1"
+    - row "Spouse 1 9 10" [level=1]:
+      - gridcell "Spouse"
+      - gridcell "1"
+      - gridcell "9"
+      - gridcell "10"
+  - rowgroup
+- img: Male Female Child Member Parent Spouse Beneficiaries by Type & Sex 28 21 14 7 0
+- img
+- text: Download SVG Download PNG Download CSV
+- img: 0-10 11-20 21-30 31-40 41-50 51-60 60+ Beneficiaries by Age Band
+- text: Beneficiaries by Age Band
+- grid:
+  - rowgroup:
+    - row "Age Band Beneficiaries' Count":
+      - columnheader "Age Band"
+      - columnheader "Beneficiaries' Count"
+  - rowgroup:
+    - row "0-10 5" [level=1]:
+      - gridcell "0-10"
+      - gridcell "5"
+    - row "11-20 3" [level=1]:
+      - gridcell "11-20"
+      - gridcell "3"
+    - row "21-30 15" [level=1]:
+      - gridcell "21-30"
+      - gridcell "15"
+    - row "31-40 14" [level=1]:
+      - gridcell "31-40"
+      - gridcell "14"
+    - row "41-50 5" [level=1]:
+      - gridcell "41-50"
+      - gridcell "5"
+    - row "51-60 1" [level=1]:
+      - gridcell "51-60"
+      - gridcell "1"
+    - row "60+ 1" [level=1]:
+      - gridcell "60+"
+      - gridcell "1"
+  - rowgroup

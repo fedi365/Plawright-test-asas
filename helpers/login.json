@@ -1,0 +1,53 @@
+[
+  {
+    "tag": "input",
+    "parent": "vaadin-text-field",
+    "type": "text"
+  },
+  {
+    "tag": "input",
+    "parent": "vaadin-password-field",
+    "type": "password"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "form",
+    "role": "button",
+    "text": "Sign In"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "host": "vaadin-login-form-wrapper",
+    "parent": "section",
+    "id": "forgotPasswordButton",
+    "role": "button",
+    "text": "Forgot Password"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  },
+  {
+    "tag": "vaadin-button",
+    "parent": "vaadin-horizontal-layout",
+    "role": "button",
+    "text": "Don't have an account? Register"
+  },
+  {
+    "tag": "button",
+    "host": "vaadin-button",
+    "id": "button",
+    "type": "button",
+    "role": "presentation"
+  }
+]
