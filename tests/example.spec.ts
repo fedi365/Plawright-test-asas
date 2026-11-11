@@ -76,14 +76,13 @@ test('aller à Members', async ({ page }) => {
   const currency = page.getByRole('combobox', { name: /^Payment Currency/ });
   console.log('Policy =', JSON.stringify(await page.getByRole('combobox', { name: /^Policy/ }).inputValue()));
   console.log('Devise =', JSON.stringify(await currency.inputValue()));
-  await page.screenshot({ path: 'avant-devise.png' });
-  await dumpPage(page, 'avant-devise');
 
 
   await page.getByRole('combobox', { name: /^BANK/ }).fill('Default Bank');
   await page.keyboard.press('Enter');
 
   // pour vérifier ce qui a été rempli
+  console.log('Tous les champs ont été remplis.');
 
   // 5. Sauvegarder
   await page.getByRole('button', { name: 'Save' }).first().click();
