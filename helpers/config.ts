@@ -1,3 +1,9 @@
-export const BASE_URL = 'http://srv652713.hstgr.cloud:4686';
-export const EMAIL = 'admin@tpa.com';
-export const PASSWORD = 'Tpa@2025';
+function need(name: string): string {
+    const v = process.env[name];
+    if (!v) throw new Error(`Variable manquante : ${name}`);
+    return v;
+}
+
+export const BASE_URL = need('BASE_URL');
+export const EMAIL = need('TEST_EMAIL');
+export const PASSWORD = need('TEST_PASSWORD');
